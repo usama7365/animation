@@ -1,0 +1,118 @@
+.main{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('wave.png');
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.boat{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    background-image: url('clipart2551937.png');
+    background-size: 100% 100%;
+    border: none;
+    top: 130px;
+    left: 1100px;
+    animation-name: boat;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 14s;
+}
+@keyframes boat{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+.plane{
+    position: absolute;
+    width: 290px;
+    height: 120px;
+    background-image: url('plane1.png');
+    background-size: 100% 100%;
+    top: 40px;
+    animation-name: plane;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 14s;
+    z-index: 1;
+}
+@keyframes plane{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+.swim{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-image: url('swim.png');
+    background-size: 100% 100%;
+    top: 400px;
+    animation-name: swim;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+}
+@keyframes swim{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+.sun{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url('sun.png');
+    background-size: 100% 100%;
+    left: 800px;
+}
+.badl{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background-image: url('badal4-removebg-preview.png');
+    background-size: 100% 100%;
+    animation-name: badl;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes badl{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+.b1{
+    left: 400px;
+    top: 60px;
+    animation-name: b1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes b1{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+.b2{
+    left: 900px;
+}
